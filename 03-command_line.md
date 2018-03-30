@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * show current working directory path: **pwd**
+    * creating a directory: **mkdir**
+    * deleting a directory: **rm -r**
+    * creating a file using `touch` command: **touch file.txt**
+    * deleting a file: **rm**
+    * renaming a file: **mv oldname.txt newname.txt**
+    * listing hidden files: **ls -a**
+    * copying a file from one directory to another: **cp file.txt directory/**
+    * search files for lines: **grep searchterm** (case sensitive)
+    * find and replace text: **sed**
+    
+    
 
 ---
 
@@ -35,15 +46,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > `ls`: **list all files in directory**  
+    `ls -a`: **list all files including hidden ones** 
+    `ls -l`: **displays the long format listing**  
+    `ls -lh`: **displays the long format listings in human readable format**  
+    `ls -lah`: **displays all files (including hidden) in HRF**  
+    `ls -t`: **displays files in order of timestamp**  
+    `ls -Glp`**displays in long format, NO group names, and directories with /**
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `d`: **displays only directories**
+    `c`: **displays files by timestamp**
+    `r`: **displays files in reverse order**
+    `u`: **displays files by file access time**
+    `g`: **long format listing without the owner names**
 
 ---
 
@@ -51,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > Basically, `xargs` reads data from **stdin** and executes the command given as argument one or more times based on the input. If no argument is given, `xargs` will mimic the`echo` command. In essence, `xargs` reads items from **standard input** as separated by blanks and executes a command for each argument. One very handy use of `xargs` is for searching through text files for a specific string of characters. To do this, the following command is used: 
+`find -name "*.txt*" | xargs grep "abc"`
  
 
