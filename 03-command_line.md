@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * show current working directory path: **pwd**
-    * creating a directory: **mkdir**
-    * deleting a directory: **rm -r**
-    * creating a file using `touch` command: **touch file.txt**
-    * deleting a file: **rm**
-    * renaming a file: **mv oldname.txt newname.txt**
-    * listing hidden files: **ls -a**
-    * copying a file from one directory to another: **cp file.txt directory/**
-    * search files for lines: **grep searchterm** (case sensitive)
-    * find and replace text: **sed**
+> > * show current working directory path: **pwd**  
+    * creating a directory: **mkdir**  
+    * deleting a directory: **rm -r**  
+    * creating a file using `touch` command: **touch file.txt**  
+    * deleting a file: **rm**  
+    * renaming a file: **mv oldname.txt newname.txt**  
+    * listing hidden files: **ls -a**  
+    * copying a file from one directory to another: **cp file.txt directory/**  
+    * search files for lines: **grep searchterm** (case sensitive)  
+    * find and replace text: **sed**  
     
     
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `d`: **displays only directories**
-    `c`: **displays files by timestamp**
-    `r`: **displays files in reverse order**
-    `u`: **displays files by file access time**
-    `g`: **long format listing without the owner names**
+> > `d`: **displays only directories**  
+    `c`: **displays files by timestamp**  
+    `r`: **displays files in reverse order**  
+    `u`: **displays files by file access time**  
+    `g`: **long format listing without the owner names**  
 
 ---
 
