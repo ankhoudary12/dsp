@@ -46,18 +46,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > `ls`: **list all files in directory**  
-
+> > `ls`: **list all files in directory** 
     `ls -a`: **list all files including hidden ones** 
-    
     `ls -l`: **displays the long format listing** 
-    
     `ls -lh`: **displays the long format listings in human readable format**  
-   
-   `ls -lah`: **displays all files (including hidden) in HRF**  
-    
+    `ls -lah`: **displays all files (including hidden) in HRF**  
     `ls -t`: **displays files in order of timestamp**  
-    
     `ls -Glp`: **displays in long format, NO group names, and directories with**
 ---
 
